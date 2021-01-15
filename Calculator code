@@ -1,0 +1,73 @@
+Console.WriteLine("Hello!, do you want to add (1), subtract (2), multiply (3) or divide (4) ?");
+
+            int taber = Convert.ToInt32(Console.ReadLine() );
+
+            if (taber == 1) 
+            {
+                Console.WriteLine("add has been chosen");
+
+                Console.WriteLine("Please enter a number");
+
+                double addnum01 = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Please enter a second number");
+
+                double addnum02 = Convert.ToDouble(Console.ReadLine());
+
+                double addresult = addnum01 + addnum02;
+
+                Console.WriteLine("The answer is " + addresult + "!");
+            }
+
+            else if (taber == 2)
+            {
+                Console.WriteLine("Subtract has been chosen");
+
+                Console.WriteLine("Please enter a number");
+
+                double subtracknum01 = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Please enter a second number");
+
+                double subtracknum02 = Convert.ToDouble(Console.ReadLine());
+
+                double subtrackresult = subtracknum01 - subtracknum02;
+
+                Console.WriteLine("The answer is " + subtrackresult + "!");
+            }
+
+            else if (taber == 3)
+            {
+                Console.WriteLine("Multiply has been chosen");
+
+                Console.WriteLine("Please enter a number");
+
+                double multiplynum01 = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Please enter a second number");
+
+                double multiplynum02 = Convert.ToDouble(Console.ReadLine());
+
+                double multiplyresult = multiplynum01 * multiplynum02;
+
+                Console.WriteLine("The answer is " + multiplyresult + "!");
+            }
+
+            else
+            {
+                Console.WriteLine("Divide has been chosen");
+
+                Console.WriteLine("Please enter a number");
+
+                double dividenum01 = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Please enter a second number");
+
+                double dividenum02 = Convert.ToDouble(Console.ReadLine());
+
+                double divideresult = dividenum01 / dividenum02;
+
+                Console.WriteLine("The answer is " + divideresult + "!");
+            }
+
+            Console.ReadKey();
